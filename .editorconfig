@@ -11,7 +11,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = false
 
-[*.{el,md,coffee}]
+[*.{el,md,coffee,pp}]
 indent_style = space
 indent_size = 2
 
@@ -23,6 +23,6 @@ indent_size = 2
 indent_style = tab
 indent_size = 2
 
-[*.{js,py,pp,sh}]
+[*.{js,py,sh}]
 indent_style = space
 indent_size = 4
