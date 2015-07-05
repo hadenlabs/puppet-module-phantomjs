@@ -4,7 +4,8 @@
 #
 class phantomjs::install {
 
-  package { $::phantomjs::package_name:
+  package {
+    $::phantomjs::package_dependences:
     ensure => present,
   }
 }
