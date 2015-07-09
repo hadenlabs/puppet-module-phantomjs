@@ -7,6 +7,7 @@ class phantomjs::params {
 
   case $::osfamily {
     'Debian': {
+      $package_name = 'phantomjs',
       $package_develop = [
                       "build-essential",
                       "g++",
@@ -33,7 +34,7 @@ class phantomjs::params {
       $version_repository = "2.0"
     }
     'RedHat', 'Amazon': {
-      $package_name = 'nil'
+      $package_name = 'phantomjs'
     }
     default: {
       fail("${::operatingsystem} not supported")
