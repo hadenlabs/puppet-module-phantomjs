@@ -7,4 +7,5 @@ class phantomjs::install {
   package { $::phantomjs::package_name:
     ensure => present,
   }
+
 }

@@ -7,10 +7,34 @@ class phantomjs::params {
 
   case $::osfamily {
     'Debian': {
-      $package_name = 'vim'
+      $package_name = 'phantomjs'
+      $package_develop = [
+                      "build-essential",
+                      "g++",
+                      "flex",
+                      "bison",
+                      "gperf",
+                      "ruby",
+                      "perl",
+                      "libsqlite3-dev",
+                      "libfontconfig1-dev",
+                      "libicu-dev",
+                      "libfreetype6",
+                      "libssl-dev",
+                      "libpng-dev",
+                      "libjpeg-dev",
+                      "python",
+                      "libx11-dev",
+                      "libxext-dev"
+                              ]
+      $package_dependences = [
+                              "git"
+                              ]
+      $app_name = "phantomjs"
+      $version_repository = "2.0"
     }
     'RedHat', 'Amazon': {
-      $package_name = 'vim-enhanced'
+      $package_name = 'phantomjs'
     }
     default: {
       fail("${::operatingsystem} not supported")
