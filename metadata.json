@@ -2,9 +2,9 @@
   "name": "hadenlabs-phantomjs",
   "version": "1.0.0",
   "author": "@slovacus",
-  "summary": "",
+  "summary": "Offers Install basic of Phantom",
   "license": "Mit",
-  "source": "",
+  "source": "git@github.com:hadenlabs/puppet-module-phantomjs.git",
   "project_page": "https://github.com/hadenlabs/puppet-module-phantomjs",
   "issues_url": "",
   "dependencies": [
