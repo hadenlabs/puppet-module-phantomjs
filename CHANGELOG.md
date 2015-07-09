@@ -1,3 +1,3 @@
-### v1.3.1 (DATE)
+### v1.0.0 (2015-07-09)
 
-- texto1
+- #1 Generate Skeleton
