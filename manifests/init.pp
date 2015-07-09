@@ -8,7 +8,7 @@
 #   Explanation of what this parameter affects and what it defaults to.
 #
 class phantomjs (
-  $package_name = $::phantomjs::params::package_name
+  $package_dependences = $::phantomjs::params::package_dependences
 ) inherits ::phantomjs::params {
 
   # validate parameters here

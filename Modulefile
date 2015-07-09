@@ -1,10 +1,10 @@
-name          'pimientadigital-phantomjs'
+name          'hadenlabs-phantomjs'
 version       '1.0.0'
 source        ''
-author        'luis mayta'
+author        '@slovacus'
 license       'Mit'
 summary       ''
 description   ''
-project_page  ''
+project_page  'https://github.com/hadenlabs/puppet-module-phantomjs'
 
 dependency 'puppetlabs/stdlib'
